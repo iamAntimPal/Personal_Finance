@@ -5,7 +5,6 @@ import mysql.connector
 import matplotlib.pyplot as plt
 from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
 import csv
-
 # MySQL connection setup
 db = mysql.connector.connect(
     host="localhost",        # Change this if your database is not on localhost
